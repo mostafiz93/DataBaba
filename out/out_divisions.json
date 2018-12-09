@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name_en": "Barisal",
+    "name_bn": "বরিশাল",
+    "districts": [
+      { "id": "34", "name_en": "Barguna", "name_bn": "বরগুনা" },
+      { "id": "35", "name_en": "Barisal", "name_bn": "বরিশাল" },
+      { "id": "36", "name_en": "Bhola", "name_bn": "ভোলা" },
+      { "id": "37", "name_en": "Jhalokati", "name_bn": "ঝালকাঠি" },
+      { "id": "38", "name_en": "Patuakhali", "name_bn": "পটুয়াখালী" },
+      { "id": "39", "name_en": "Pirojpur", "name_bn": "পিরোজপুর" }
+    ]
+  },
+  {
+    "id": "2",
+    "name_en": "Chittagong",
+    "name_bn": "চট্টগ্রাম",
+    "districts": [
+      { "id": "40", "name_en": "Bandarban", "name_bn": "বান্দরবান" },
+      { "id": "41", "name_en": "Brahmanbaria", "name_bn": "ব্রাহ্মণবাড়িয়া" },
+      { "id": "42", "name_en": "Chandpur", "name_bn": "চাঁদপুর" },
+      { "id": "43", "name_en": "Chittagong", "name_bn": "চট্টগ্রাম" },
+      { "id": "44", "name_en": "Comilla", "name_bn": "কুমিল্লা" },
+      { "id": "45", "name_en": "Cox’s Bazar", "name_bn": "কক্স বাজার" },
+      { "id": "46", "name_en": "Feni", "name_bn": "ফেনী" },
+      { "id": "47", "name_en": "Khagrachari", "name_bn": "খাগড়াছড়ি" },
+      { "id": "48", "name_en": "Lakshmipur", "name_bn": "লক্ষ্মীপুর" },
+      { "id": "49", "name_en": "Noakhali", "name_bn": "নোয়াখালী" },
+      { "id": "50", "name_en": "Rangamati", "name_bn": "রাঙ্গামাটি" }
+    ]
+  },
+  {
+    "id": "3",
+    "name_en": "Dhaka",
+    "name_bn": "ঢাকা",
+    "districts": [
+      { "id": "1", "name_en": "Dhaka", "name_bn": "ঢাকা" },
+      { "id": "2", "name_en": "Faridpur", "name_bn": "ফরিদপুর" },
+      { "id": "3", "name_en": "Gazipur", "name_bn": "গাজীপুর" },
+      { "id": "4", "name_en": "Gopalganj", "name_bn": "গোপালগঞ্জ" },
+      { "id": "6", "name_en": "Kishoreganj", "name_bn": "কিশোরগঞ্জ" },
+      { "id": "7", "name_en": "Madaripur", "name_bn": "মাদারীপুর" },
+      { "id": "8", "name_en": "Manikganj", "name_bn": "মানিকগঞ্জ" },
+      { "id": "9", "name_en": "Munshiganj", "name_bn": "মুন্সিগঞ্জ" },
+      { "id": "11", "name_en": "Narayanganj", "name_bn": "নারায়াণগঞ্জ" },
+      { "id": "12", "name_en": "Narsingdi", "name_bn": "নরসিংদী" },
+      { "id": "14", "name_en": "Rajbari", "name_bn": "রাজবাড়ি" },
+      { "id": "15", "name_en": "Shariatpur", "name_bn": "শরীয়তপুর" },
+      { "id": "17", "name_en": "Tangail", "name_bn": "টাঙ্গাইল" }
+    ]
+  },
+  {
+    "id": "4",
+    "name_en": "Khulna",
+    "name_bn": "খুলনা",
+    "districts": [
+      { "id": "55", "name_en": "Bagerhat", "name_bn": "বাগেরহাট" },
+      { "id": "56", "name_en": "Chuadanga", "name_bn": "চুয়াডাঙ্গা" },
+      { "id": "57", "name_en": "Jessore", "name_bn": "যশোর" },
+      { "id": "58", "name_en": "Jhenaidah", "name_bn": "ঝিনাইদহ" },
+      { "id": "59", "name_en": "Khulna", "name_bn": "খুলনা" },
+      { "id": "60", "name_en": "Kushtia", "name_bn": "কুষ্টিয়া" },
+      { "id": "61", "name_en": "Magura", "name_bn": "মাগুরা" },
+      { "id": "62", "name_en": "Meherpur", "name_bn": "মেহেরপুর" },
+      { "id": "63", "name_en": "Narail", "name_bn": "নড়াইল" },
+      { "id": "64", "name_en": "Satkhira", "name_bn": "সাতক্ষীরা" }
+    ]
+  },
+  {
+    "id": "5",
+    "name_en": "Rajshahi",
+    "name_bn": "রাজশাহী",
+    "districts": [
+      { "id": "18", "name_en": "Bogra", "name_bn": "বগুড়া" },
+      { "id": "19", "name_en": "Joypurhat", "name_bn": "জয়পুরহাট" },
+      { "id": "20", "name_en": "Naogaon", "name_bn": "নওগাঁ" },
+      { "id": "21", "name_en": "Natore", "name_bn": "নাটোর" },
+      { "id": "22", "name_en": "Nawabganj", "name_bn": "নবাবগঞ্জ" },
+      { "id": "23", "name_en": "Pabna", "name_bn": "পাবনা" },
+      { "id": "24", "name_en": "Rajshahi", "name_bn": "রাজশাহী" },
+      { "id": "25", "name_en": "Sirajgonj", "name_bn": "সিরাজগঞ্জ" }
+    ]
+  },
+  {
+    "id": "6",
+    "name_en": "Rangpur",
+    "name_bn": "রংপুর",
+    "districts": [
+      { "id": "26", "name_en": "Dinajpur", "name_bn": "দিনাজপুর" },
+      { "id": "27", "name_en": "Gaibandha", "name_bn": "গাইবান্ধা" },
+      { "id": "28", "name_en": "Kurigram", "name_bn": "কুড়িগ্রাম" },
+      { "id": "29", "name_en": "Lalmonirhat", "name_bn": "লালমনিরহাট" },
+      { "id": "30", "name_en": "Nilphamari", "name_bn": "নীলফামারী" },
+      { "id": "31", "name_en": "Panchagarh", "name_bn": "পঞ্চগড়" },
+      { "id": "32", "name_en": "Rangpur", "name_bn": "রংপুর" },
+      { "id": "33", "name_en": "Thakurgaon", "name_bn": "ঠাকুরগাঁও" }
+    ]
+  },
+  {
+    "id": "7",
+    "name_en": "Sylhet",
+    "name_bn": "সিলেট",
+    "districts": [
+      { "id": "51", "name_en": "Habiganj", "name_bn": "হবিগঞ্জ" },
+      { "id": "52", "name_en": "Maulvibazar", "name_bn": "মৌলভীবাজার" },
+      { "id": "53", "name_en": "Sunamganj", "name_bn": "সুনামগঞ্জ" },
+      { "id": "54", "name_en": "Sylhet", "name_bn": "সিলেট" }
+    ]
+  },
+  {
+    "id": "8",
+    "name_en": "Mymensingh",
+    "name_bn": "ময়মনসিংহ",
+    "districts": [
+      { "id": "5", "name_en": "Jamalpur", "name_bn": "জামালপুর" },
+      { "id": "10", "name_en": "Mymensingh", "name_bn": "ময়মনসিং" },
+      { "id": "13", "name_en": "Netrokona", "name_bn": "নেত্রকোনা" },
+      { "id": "16", "name_en": "Sherpur", "name_bn": "শেরপুর" }
+    ]
+  }
+]
