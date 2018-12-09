@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Barisal",
+    "districts": [
+      { "name": "Barguna" },
+      { "name": "Barisal" },
+      { "name": "Bhola" },
+      { "name": "Jhalokati" },
+      { "name": "Patuakhali" },
+      { "name": "Pirojpur" }
+    ]
+  },
+  {
+    "name": "Chittagong",
+    "districts": [
+      { "name": "Bandarban" },
+      { "name": "Brahmanbaria" },
+      { "name": "Chandpur" },
+      { "name": "Chittagong" },
+      { "name": "Comilla" },
+      { "name": "Cox’s Bazar" },
+      { "name": "Feni" },
+      { "name": "Khagrachari" },
+      { "name": "Lakshmipur" },
+      { "name": "Noakhali" },
+      { "name": "Rangamati" }
+    ]
+  },
+  {
+    "name": "Dhaka",
+    "districts": [
+      { "name": "Dhaka" },
+      { "name": "Faridpur" },
+      { "name": "Gazipur" },
+      { "name": "Gopalganj" },
+      { "name": "Kishoreganj" },
+      { "name": "Madaripur" },
+      { "name": "Manikganj" },
+      { "name": "Munshiganj" },
+      { "name": "Narayanganj" },
+      { "name": "Narsingdi" },
+      { "name": "Rajbari" },
+      { "name": "Shariatpur" },
+      { "name": "Tangail" }
+    ]
+  },
+  {
+    "name": "Khulna",
+    "districts": [
+      { "name": "Bagerhat" },
+      { "name": "Chuadanga" },
+      { "name": "Jessore" },
+      { "name": "Jhenaidah" },
+      { "name": "Khulna" },
+      { "name": "Kushtia" },
+      { "name": "Magura" },
+      { "name": "Meherpur" },
+      { "name": "Narail" },
+      { "name": "Satkhira" }
+    ]
+  },
+  {
+    "name": "Rajshahi",
+    "districts": [
+      { "name": "Bogra" },
+      { "name": "Joypurhat" },
+      { "name": "Naogaon" },
+      { "name": "Natore" },
+      { "name": "Nawabganj" },
+      { "name": "Pabna" },
+      { "name": "Rajshahi" },
+      { "name": "Sirajgonj" }
+    ]
+  },
+  {
+    "name": "Rangpur",
+    "districts": [
+      { "name": "Dinajpur" },
+      { "name": "Gaibandha" },
+      { "name": "Kurigram" },
+      { "name": "Lalmonirhat" },
+      { "name": "Nilphamari" },
+      { "name": "Panchagarh" },
+      { "name": "Rangpur" },
+      { "name": "Thakurgaon" }
+    ]
+  },
+  {
+    "name": "Sylhet",
+    "districts": [
+      { "name": "Habiganj" },
+      { "name": "Maulvibazar" },
+      { "name": "Sunamganj" },
+      { "name": "Sylhet" }
+    ]
+  },
+  {
+    "name": "Mymensingh",
+    "districts": [
+      { "name": "Jamalpur" },
+      { "name": "Mymensingh" },
+      { "name": "Netrokona" },
+      { "name": "Sherpur" }
+    ]
+  }
+]

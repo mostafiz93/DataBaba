@@ -12,9 +12,16 @@ for (let i = 0; i < divisions.length; i++) {
   let d = divisions[i];
   divObj.push({
     id: d.id,
-    name_en: d.name,
-    name_bn: d.bn_name,
+    name: d.name,
     districts: [],
+  });
+}
+
+let divObj_nameOnly = [];
+for (let i = 0; i < divisions.length; i++) {
+  let d = divisions[i];
+  divObj_nameOnly.push({
+    name: d.name,
   });
 }
 
@@ -23,12 +30,16 @@ for (let i = 0; i < districts.length; i++) {
   let d = districts[i];
   disObj.push({
     id: d.id,
-    name_en: d.name,
-    name_bn: d.bn_name,
-    lon: d.lon,
-    lat: d.lat,
-    website: d.website,
+    name: d.name,
     upazilas: [],
+  });
+}
+
+let disObj_nameOnly = [];
+for (let i = 0; i < districts.length; i++) {
+  let d = districts[i];
+  disObj_nameOnly.push({
+    name: d.name,
   });
 }
 
@@ -36,12 +47,7 @@ let upaObj = [];
 for (let i = 0; i < upazilas.length; i++) {
   let d = upazilas[i];
   upaObj.push({
-    id: d.id,
-    name_en: d.name,
-    name_bn: d.bn_name,
-    lon: d.lon,
-    lat: d.lat,
-    website: d.website,
+    name: d.name,
   });
 }
 
@@ -50,9 +56,7 @@ for (let i = 0; i < districts.length; i++) {
   for (let j = 0; j < divObj.length; j++) {
     if (d.division_id == divObj[j].id)
       divObj[j].districts.push({
-        id: d.id,
-        name_en: d.name,
-        name_bn: d.bn_name,
+        name: d.name,
       });
   }
 }
@@ -62,13 +66,26 @@ for (let i = 0; i < upazilas.length; i++) {
   for (let j = 0; j < disObj.length; j++) {
     if (d.district_id == disObj[j].id)
       disObj[j].upazilas.push({
-        id: d.id,
-        name_en: d.name,
-        name_bn: d.bn_name,
+        name: d.name,
       });
   }
 }
 
-fs.writeFileSync('./out/divisions.json', JSON.stringify(divObj), 'utf-8');
-fs.writeFileSync('./out/districts.json', JSON.stringify(disObj), 'utf-8');
-fs.writeFileSync('./out/upazilas.json', JSON.stringify(upaObj), 'utf-8');
+for (let i = 0; i < divObj.length; i++) delete divObj[i].id;
+for (let i = 0; i < disObj.length; i++) delete disObj[i].id;
+
+fs.writeFileSync('./out/divisions_min.json', JSON.stringify(divObj), 'utf-8');
+fs.writeFileSync(
+  './out/divisions_name_only.json',
+  JSON.stringify(divObj_nameOnly),
+  'utf-8',
+);
+
+fs.writeFileSync('./out/districts_min.json', JSON.stringify(disObj), 'utf-8');
+fs.writeFileSync(
+  './out/districts_name_only.json',
+  JSON.stringify(disObj_nameOnly),
+  'utf-8',
+);
+
+fs.writeFileSync('./out/upazilas_min.json', JSON.stringify(upaObj), 'utf-8');
